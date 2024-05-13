@@ -1,0 +1,53 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cbf2e290;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.habitat {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.habitat img {
+    max-width: 900px;
+    max-height: 500px;
+    padding: 50px;
+}
+
+.animals {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.animal h3 {
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+}
+
+.animal img {
+    max-width: 900px;
+    max-height: 260px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #2addd4;
+    padding: 10px;
+    text-align: center;
+}

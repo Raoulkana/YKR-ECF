@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(136, 158, 167, 0.214);
+}
+
+header {
+    width: 75%;
+    margin: auto;
+    padding:0px 20px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+header h1 {
+    color: black;
+    font-size: 40px;
+}
+
+section {
+    width:75%;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+form {
+    flex: 1;
+    max-width: 600px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    margin-right: 15px;
+    box-shadow: 0 0 10px rgba(23, 22, 22, 0.1);
+
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #05f41d;
+    outline: none;
+    border-radius: 4px;
+    transition: 0.5s ease;
+
+}
+
+form input:hover, 
+form textarea:hover {
+    border: 1px solid #f1e9079b;
+} 
+
+form button {
+    background-color: #09f2db;
+    font-size: 17px;
+    color: #fdfefefa;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+form button:hover {
+    background-color: #f209eede;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.Contact-info {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(5, 254, 88, 0.243);
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(23, 22, 22, 0.1);
+}
+
+.Contact-info h2 {
+    font-size: 26px;
+    color: #eff6f5;
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+}
+
+.Contact-info p {
+    color: #100f0f;
+    line-height: 1,4;
+}
+@media screen and (max-width: 768px){
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+    form,
+    .Contact-info {
+        width: 90%;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+}
+
+footer {
+    background-color: #10e16e;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    margin: 50px;
+}
