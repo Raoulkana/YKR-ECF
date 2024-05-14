@@ -2,6 +2,11 @@
 $title = 'Contact Us';
 
 require_once __DIR__ . '/../inc/bootstrap.php';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    die;
+}
+
 require_once __DIR__ . '/../inc/header.php'; ?>
 
 <link rel="stylesheet" href="/assets/css/styles2.css">
@@ -9,8 +14,9 @@ require_once __DIR__ . '/../inc/header.php'; ?>
 <header>
     <h1>Contact Us</h1>
 </header>
+
 <section>
-    <form>
+    <form method="post">
         <label for="name">Your Name</label>
         <input type="text" name="name" required>
         <label for="name">Your E-mail</label>
@@ -18,7 +24,6 @@ require_once __DIR__ . '/../inc/header.php'; ?>
         <label for="message">Your Message</label>
         <textarea name="message" rows="4" required></textarea>
         <button type="submit">Send</button>
-
     </form>
     <div class="Contact-info">
         <h2>Contact Information</h2>

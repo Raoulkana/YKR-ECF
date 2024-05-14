@@ -105,7 +105,7 @@ require_once __DIR__ . '/inc/header.php'; ?>
         <div class="card mb-3 border-0 rounded-0">
         <div class="row">
             <div class="col-md-6">
-            <img src="/assets/images/resto/n1.jpg" class="img-fluid rounded-start" alt="...">
+            <img src="/assets/images/n1.jpg" class="img-fluid rounded-start" alt="...">
             <img src="/assets/images/r4.jpg" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-6">
@@ -147,7 +147,7 @@ require_once __DIR__ . '/inc/header.php'; ?>
         </div>
     </div>
     <div class="review">
-        <img src="/assets/images/resto/per3.jpg" alt="photo Marie">
+        <img src="/assets/images/avis/per3.jpg" alt="photo Marie">
 
         <div class="review-details">
 
@@ -160,7 +160,7 @@ require_once __DIR__ . '/inc/header.php'; ?>
     </div>
 
     <div class="review">
-        <img src="/assets/images/resto/per2.jpg" alt="photo mirielle">
+        <img src="/assets/images/avis/per2.jpg" alt="photo mirielle">
 
         <div class="review-details">
         <div class="review-name">Joseph</div>

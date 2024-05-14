@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c9eeecfc;
+    margin-bottom: 50px;
+    
+}
+
+a {
+    color: #494646;
+    text-decoration: none;
+    padding-bottom: 50px;
+}
+
+ul  {
+    color: #0c0c0c;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+span {
+    font-size: 19px;
+    color: #0b0b0b;
+    padding-right: 10px;
+}
+
+button {
+    background-color: #dbed10;
+    color: #0b0b0b;
+    border: 1px solid #08f320;
+    font-size: 18px;
+    padding-left: 10px;
+    transition: .2s ease-in;
+    
+}
+
+button :hover {
+    color: #bb7e2d;
+    background-color: aqua;
+    cursor: pointer;
+}
+ 
+button:active {
+    transform: scale(.95);
+}

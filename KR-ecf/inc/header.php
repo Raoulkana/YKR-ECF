@@ -10,8 +10,6 @@
 
     <title><?= $title; ?></title>
 </head>
-
-<body>
     <nav class="cc-navbar navbar navbar-expand-lg navbar-dark w-100">
         <div class="container-fluid">
         <a class="navbar-brand text-uppercase mx-4 py-3" href="/">ARCADIA Zoo</a>

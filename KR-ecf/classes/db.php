@@ -67,6 +67,15 @@ class DB {
         return $sth->execute($data);
     }
 
+    public static function deleteUser($username) {
+        $db = self::connect();
+
+        $sth = $db->prepare("DELETE FROM `utilisateur` WHERE `username` = :username");
+        $data['username'] = $username;
+
+        return $sth->execute($data);
+    }
+
     public static function getServices() {
         $db = self::connect();
 
@@ -99,6 +108,15 @@ class DB {
         $db = self::connect();
 
         $sth = $db->prepare("UPDATE `service` SET `nom` = :nom, `description` = :description WHERE `service_id` = :service_id");
+        $data['service_id'] = $service_id;
+
+        return $sth->execute($data);
+    }
+
+    public static function deleteService($service_id) {
+        $db = self::connect();
+
+        $sth = $db->prepare("DELETE FROM `service` WHERE `service_id` = :service_id");
         $data['service_id'] = $service_id;
 
         return $sth->execute($data);

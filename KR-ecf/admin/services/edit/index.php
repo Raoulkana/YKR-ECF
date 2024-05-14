@@ -1,7 +1,10 @@
 <?php
 require_once __DIR__ . '/../../inc/bootstrap.php';
 
-$service = [];
+$service = [
+    'nom' => '',
+    'description' => '',
+];
 
 if (!empty($_REQUEST['service_id'])) {
     $service = \DB::getService($_REQUEST['service_id']);
@@ -26,10 +29,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
+if (isset($_REQUEST['action'])
+    && $_REQUEST['action'] == 'delete'
+    && !empty($service)) {
+    \DB::deleteService($service['service_id']);
+
+    header("Location: /admin/services");
+    die;
+}
+
 require_once __DIR__ .'/../../inc/header.php';
 ?>
 
-<form action="" method='post'>
+<link rel="stylesheet" href="/admin/services/services.css">
+
+<section>
+ <form action="" method='post'>
     <label>
         <span>Nom</span>
         <input type="text" name='nom' required value='<?= $service['nom']; ?>' />
@@ -41,7 +56,8 @@ require_once __DIR__ .'/../../inc/header.php';
     </label>
 
     <button type='submit'>Save</button>
-</form>
+ </form>
+</section>
 
 <?php
 require_once __DIR__ .'/../../inc/footer.php';

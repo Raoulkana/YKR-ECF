@@ -6,15 +6,21 @@ $users = \DB::getUsers();
 require_once __DIR__ .'/../inc/header.php';
 ?>
 
-<a href="/admin/users/edit">Ajouter un utilisateur</a>
+<link rel="stylesheet" href="/admin/users/users.css">
 
-<ul>
+
+
+<body>
+ <a href="/admin/users/edit"><mark>AJOUTER UN UTILISATEUR</mark></a>
+ <ul>
     <?php foreach ($users as $user) : ?>
         <li>
             <a href="/admin/users/edit?username=<?=$user['username']; ?>"><?= $user['nom']; ?> <?= $user['prenom']; ?></a>
+            <a href="/admin/users/edit?username=<?=$user['username']; ?>&action=delete">supprimer</a>
         </li>
     <?php endforeach; ?>
-</ul>
+ </ul>
+</body>
 
 <?php
 require_once __DIR__ .'/../inc/footer.php';

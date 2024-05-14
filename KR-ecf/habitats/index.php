@@ -4,7 +4,7 @@ $title = 'Zoo - Habitats';
 require_once __DIR__ . '/../inc/bootstrap.php';
 require_once __DIR__ . '/../inc/header.php'; ?>
 
-<link rel="stylesheet" href="/habitats/styles4.css">
+<link rel="stylesheet" href="/assets/css/habitats.css">
 
 <header>
     <h1>

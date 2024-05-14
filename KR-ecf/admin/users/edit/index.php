@@ -33,10 +33,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
+if (isset($_REQUEST['action'])
+    && $_REQUEST['action'] == 'delete'
+    && !empty($user)) {
+    \DB::deleteUser($user['username']);
+
+    header("Location: /admin/users");
+    die;
+}
+
+
 require_once __DIR__ .'/../../inc/header.php';
 ?>
+<link rel="stylesheet" href="/admin/users/users.css">
 
-<form action="" method='post'>
+<section>
+ <form action="" method='post'>
     <label>
         <span>Username</span>
         <input type="text" name='username' required value='<?= $user['username']; ?>' <?= empty($user['username']) ? '' : 'disabled' ?> />
@@ -58,7 +70,8 @@ require_once __DIR__ .'/../../inc/header.php';
     </label>
 
     <button type='submit'>Save</button>
-</form>
+  </form>
+</section>
 
 <?php
 require_once __DIR__ .'/../../inc/footer.php';

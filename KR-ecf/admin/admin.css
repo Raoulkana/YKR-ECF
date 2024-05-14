@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ddf8f8b8;
+    margin-bottom: 50px;
+    
+}
+
+header  {
+    background-color: #333;
+    color: #f6f6f3;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.adm-menu {
+    background-color: #15d0d3;
+    padding: 10px;
+}
+
+.adm-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.adm-menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.adm-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #72cca0;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+

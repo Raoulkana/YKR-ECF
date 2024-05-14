@@ -6,17 +6,23 @@ $services = \DB::getServices();
 require_once __DIR__ .'/../inc/header.php';
 ?>
 
-<a href="/admin/services/edit">Ajouter un service</a>
+<link rel="stylesheet" href="/admin/services/services.css">
 
-<ul>
+<body>
+  <a href="/admin/services/edit"><mark>AJOUTER UN SERVICE</mark></a>
+  <ul>
     <?php foreach ($services as $service) : ?>
         <li>
             <a href="/admin/services/edit?service_id=<?=$service['service_id']; ?>"><?= $service['nom']; ?></a>
+            <a href="/admin/services/edit?service_id=<?= $service['service_id']; ?>&action=delete">supprimer</a>
         </li>
     <?php endforeach; ?>
-</ul>
+  </ul>
+</body>
+
 
 <?php
 require_once __DIR__ .'/../inc/footer.php';
+
 
 

@@ -18,6 +18,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 require_once __DIR__ . '/../inc/header.php';
 ?>
 
+<style>
+    .container {
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+</style>
 <div class="container">
     <div class="row mt-5">
         <div class="col-lg-4 bg-secondary m-auto rounded-top">

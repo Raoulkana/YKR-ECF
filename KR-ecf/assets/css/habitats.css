@@ -36,8 +36,14 @@ main {
 
 .animal h3 {
     text-align: center;
-    margin: 50px;
-    padding: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.animal p {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 18px;
 }
 
 .animal img {
@@ -46,8 +52,3 @@ main {
     padding: 20px;
 }
 
-footer {
-    background-color: #2addd4;
-    padding: 10px;
-    text-align: center;
-}
