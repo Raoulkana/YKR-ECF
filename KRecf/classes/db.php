@@ -121,4 +121,51 @@ class DB {
 
         return $sth->execute($data);
     }
+
+
+    public static function getAnimaux() {
+        $db = self::connect();
+
+        $sth = $db->prepare("SELECT * FROM `animal`");
+        $sth->execute();
+
+        return $sth->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public static function getAnimal($animal_id) {
+        $db = self::connect();
+
+        $sth = $db->prepare("SELECT * FROM `animal` WHERE `animal_id` = :animal_id");
+        $sth->execute([
+            'animal_id' => $animal_id,
+        ]);
+
+        return $sth->fetch(PDO::FETCH_ASSOC);
+    }
+
+    public static function createAnimal($data) {
+        $db = self::connect();
+
+        $sth = $db->prepare("INSERT INTO `animal` (`prenom`,`etat`) VALUES (:prenom, :etat)");
+
+        return $sth->execute($data);
+    }
+
+    public static function updateAnimal($animal_id, $data) {
+        $db = self::connect();
+
+        $sth = $db->prepare("UPDATE `animal` SET `prenom` = :prenom, `etat` = :description WHERE `animal_id` = :animal_id");
+        $data['animal_id'] = $animal_id;
+
+        return $sth->execute($data);
+    }
+
+    public static function deleteAnimal($animal_id) {
+        $db = self::connect();
+
+        $sth = $db->prepare("DELETE FROM `animal` WHERE `animal_id` = :animal_id");
+        $data['animal_id'] = $animal_id;
+
+        return $sth->execute($data);
+    }
 }
