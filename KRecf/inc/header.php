@@ -24,6 +24,9 @@
             <li class="nav-item pe-4">
                 <a class="nav-link" href="/services">Les Services</a>
             </li>
+            <li class="nav-item pe-4">
+                <a class="nav-link" href="/animaux">Les animaux</a>
+            </li>
 
             <li class="nav-item pe-4">
                 <a class="nav-link" href="/habitats">Les Habitats</a>

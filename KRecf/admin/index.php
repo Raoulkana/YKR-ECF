@@ -29,6 +29,10 @@ require_once __DIR__ .'/inc/header.php'; ?>
         <h2> * Gestion des Services</h2>
         <p>Ici, vous pouvez gérer les services.</p>
     </section>
+    <section id="animaux">
+        <h2> * Gestion des Services</h2>
+        <p>Ici, vous pouvez gérer les services.</p>
+    </section>
     
     
 </body>

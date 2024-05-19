@@ -22,6 +22,9 @@
                         <a class="nav-link" href="/admin/services">Services</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="/admin/animaux">Animaux</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="/admin/logout">Logout</a>
                     </li>
                 </ul>
