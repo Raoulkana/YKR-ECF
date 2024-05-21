@@ -4,6 +4,20 @@ $title = 'Contact Us';
 require_once __DIR__ . '/../inc/bootstrap.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $data = [
+        'email' => filter_input(INPUT_POST, 'email'),
+        'name' => filter_input(INPUT_POST, 'name'),
+        'message' => filter_input(INPUT_POST, 'message'),
+    ];
+    $body = '' . PHP_EOL;
+    $body .= 'Email: ' . $data['email'] . PHP_EOL;
+    $body .= 'Name: ' . $data['name'] . PHP_EOL;
+    $body .= 'Message: ' . $data['message'] . PHP_EOL;
+
+    mail('Arcadia@example.com', "Contact Form", $body);
+
+    $_SESSION['contact_form_message'] = 'Thank you, we will get in touch with you as soon as possible!';
+    header('Location: /contact');
     die;
 }
 
