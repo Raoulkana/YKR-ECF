@@ -134,7 +134,7 @@ require_once __DIR__ . '/inc/header.php'; ?>
 <section class="reviews-section">
     <h2>Avis de nos Visiteurs :</h2>
     <div class="review">
-        <img src="/assets/images/resto/per1.jpg" alt="photo grace">
+        <img src="/assets/images/avis/per1.jpg" alt="photo grace">
 
         <div class="review-details">
 
