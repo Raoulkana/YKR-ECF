@@ -27,7 +27,7 @@ class DB {
             }
         }
 
-        return self::$conn;
+        return self::$conn; 
     }
 
     public static function getUsers() {
