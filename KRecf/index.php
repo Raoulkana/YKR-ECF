@@ -62,7 +62,7 @@ require_once __DIR__ . '/inc/header.php'; ?>
                     Au sein du zoo ARCADIA, vous trouverez une variété d'animaux fascinants provenant du monde entier.
                     Voici quelques exemples d'animaux que vous pourriez rencontrer lors de votre visite :
                     <ol>
-                        <li>Les Mammifère</li>
+                        <li>Les Mammifères</li>
                         <li>Les Oiseaux</li>
                         <li>Les Reptiles et Animaux Marins </li>
                         <li>Les Amphibiens</li>
