@@ -2,10 +2,10 @@
 
 class DB {
     private static PDO $conn;
-    private const DB_HOST = 'sql11.freesqldatabase.com';
-    private const DB_NAME = 'sql11705952';
-    private const DB_USERNAME = 'sql11705952';
-    private const DB_PASSWORD = 'J5QMdci5Kw';
+    private const DB_HOST = 'sql7.freesqldatabase.com';
+    private const DB_NAME = 'sql7708048';
+    private const DB_USERNAME = 'sql7708048';
+    private const DB_PASSWORD = 'jTeglu9jrq';
     private const DB_PORT = '3306';
 
     /**
