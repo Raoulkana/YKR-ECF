@@ -113,7 +113,7 @@ require_once __DIR__ . '/inc/header.php'; ?>
                 <h5 class="card-title">
                     <strong>LES DIFFÉRENTS SERVICES</strong>
                 </h5>
-                <p class="card-text">Le zoo offrent une variété de services pour améliorer l'expérience
+                <p class="card-text">Le zoo offre une variété de services pour améliorer l'expérience
                     des visiteurs et assurer le bien-être des animaux. Voici quelques-uns des services
                     typique que vous pourriez trouver chez nous :
                     <ol>
@@ -141,7 +141,7 @@ require_once __DIR__ . '/inc/header.php'; ?>
         <div class="review-name">GRACE</div>
         <div class="review-rating">★★★★☆</div>
         <div class="review-text">J'ai vraiment apprécié ma viste au zoo, les animaux semblaient en bonne santé
-            et les étaient bien entretenus.
+            et ils étaient bien entretenus.
         </div>
 
         </div>

@@ -21,7 +21,7 @@ require_once __DIR__ . '/../inc/header.php'; ?>
         <p>La savane est une vaste étendue de terre caractèrisée par des herbes hautes et épaisse, parsemées d'arbres dispersés
             d'arbustes. Elle est généralement associée à un climat chaud et sec, avec une saison de pluie courte. Elle est une
             reconstitution artificielle d'un habitat naturel qui se trouve principalement en Afrique.
-            Les visiteurs peuvent découvrir une variété d'animaux de cette region notamment:
+            Les visiteurs peuvent découvrir une variété d'animaux de cette region, notamment:
 
         </p>
         <div class="animals">
