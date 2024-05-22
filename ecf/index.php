@@ -11,10 +11,10 @@ require_once __DIR__ . '/inc/header.php'; ?>
             <div class="col-md-6 rk-desc">
                 <h1 class="text capitalize py-3 dancing script">
                 <strong>PRÉSENTATION DU ZOO ARCADIA:</strong>
-                    <p>Arcadia est un zoo situé en france près de la Forêt de Brocéliande, en bretagne deppuis 1960.
-                    Ils possèdent tout un panel d'annimaux, reparti par habitats.
-                    Chaque jour, plusieurs vétérinaires viennent afin d'effectuer les Contrôles
-                    sur chaque animal avant l'ouverture du zoo pour s'assurer que tout se passe bien.
+                    <p>Arcadia est un zoo situé en france près de la Forêt de Brocéliande, en bretagne dépuis 1960.
+                    Il possède tout un panel d'animaux, reparti par habitats.
+                    Chaque jour, plusieurs vétérinaires viennent pour effectuer des Contrôles
+                    sur chaque animal avant l'ouverture du zoo et s'assurer que tout se passe bien.
                     </p>
 
                 </h1>
@@ -36,7 +36,7 @@ require_once __DIR__ . '/inc/header.php'; ?>
                 <h5 class="card-title">
                 <strong>LES DIFFÉRENTS HABITATS</strong>
                 </h5>
-                <p class="card-text"> ARCADIA est un lieu où vous pouvez observer et en apprendre davantage sur de nombreuses
+                <p class="card-text"> ARCADIA est un lieu où vous pouvez observer et apprendre davantage sur de nombreuses
                     espèces animales provenant du monde entier, il est conçue pour reproduire l'habitat naturel des animaux
                     offrant ainsi aux visiteurs une expérience immersive. Voici quelques-unes des zones typique que vous pourriez
                     trouver dans le zoo :
@@ -62,9 +62,9 @@ require_once __DIR__ . '/inc/header.php'; ?>
                     Au sein du zoo ARCADIA, vous trouverez une variété d'animaux fascinants provenant du monde entier.
                     Voici quelques exemples d'animaux que vous pourriez rencontrer lors de votre visite :
                     <ol>
-                        <li>Les Mammifères</li>b
+                        <li>Les Mammifères</li>
                         <li>Les Oiseaux</li>
-                        <li>Les Reptiles et Animaux Marins </li>
+                        <li>Les Reptiles et Les Animaux Marins </li>
                         <li>Les Amphibiens</li>
                         <li>Les Invertébrés</li>
                     </ol>
