@@ -1,1 +1,1 @@
-web: heroku-php-apache2 YKR-ECF/ 
+web: heroku-php-apache2
