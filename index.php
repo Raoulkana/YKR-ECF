@@ -11,7 +11,7 @@ require_once __DIR__ . '/inc/header.php'; ?>
             <div class="col-md-6 rk-desc">
                 <h1 class="text capitalize py-3 dancing script">
                 <strong>PRÉSENTATION DU ZOO ARCADIA:</strong>
-                    <p>Arcadia est un zoo situé en france près de la Forêt de Brocéliande, en bretagne dépuis 1960.
+                    <p>Arcadia est un zoo situé en france près de la Forêt de Brocéliande, en bretagne depuis 1960.
                     Il possède tout un panel d'animaux, reparti par habitats.
                     Chaque jour, plusieurs vétérinaires viennent pour effectuer des Contrôles
                     sur chaque animal avant l'ouverture du zoo et s'assurer que tout se passe bien.
