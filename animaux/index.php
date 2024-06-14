@@ -23,4 +23,10 @@ $animaux = \DB::getAnimaux();
     <?php endforeach; ?>
 </section>
 
+<section> 
+    <img src="/assets/images/r3.jpg" alt="élephants">
+    <img src="/assets/images/ac1.jpg" alt="lions">
+    <img src="/assets/images/r2.jpg" alt="zébres">
+</section>
+
 <?php require_once __DIR__ . '/../inc/footer.php';
