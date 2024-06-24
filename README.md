@@ -27,7 +27,11 @@ Durant mes recherches je me suis référé sur le site:https://www.w3.org/ pour 
               
                   PARTIE 4 : Information complémentaire 
 
-Autres ressources :
+_ pour se connecter à la base de données du site :
+    Users: admin@example.com
+    mot de passe: password
+
+_ autres ressources : 
 
 Youtube 
 Google 
