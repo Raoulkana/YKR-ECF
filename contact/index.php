@@ -33,7 +33,7 @@ require_once __DIR__ . '/../inc/header.php'; ?>
     <form method="post">
         <label for="name">Your Name</label>
         <input type="text" name="name" required>
-        <label for="name">Your E-mail</label>
+        <label for="email">Your E-mail</label>
         <input type="email" name="email" required>
         <label for="message">Your Message</label>
         <textarea name="message" rows="4" required></textarea>
